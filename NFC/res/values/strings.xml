@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <string name="hello">Hello world, NFC!</string><string name="app_name">NFC</string>
+    <string name="write_to_tag">Write to tag</string>
+    <string name="default_text">Edit me by entering fullname!</string>
+
+</resources>

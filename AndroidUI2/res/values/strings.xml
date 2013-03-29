@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <string name="txtView1">Enter name of form:</string>
+ <string name="app_name">Medical Form Application</string>
+ <string name="btnClick">Create form</string>
+ <string name="menu_settings">Settings</string>
+ </resources>

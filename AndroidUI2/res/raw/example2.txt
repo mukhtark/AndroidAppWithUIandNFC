@@ -1,0 +1,50 @@
+{
+"form": 
+	[
+	{
+	"text-field": 
+		{
+		"id": "1",
+		"name": "first name",
+		"type": "text",
+		"default-text": "first name"
+		}
+	},
+	{
+	"text-field": 
+		{
+		"id": "2",              
+		"name": "last name",              
+		"type": "text",
+		"default-text": "first name"
+		}
+	},
+	{
+	"check-box": 
+		{
+		"id": "2",
+		"name": "CHECK BOX",
+		"options" : 
+			[
+			"1st opt",
+			"2nd opt",
+			"3rd opt"
+			]
+		}
+	},
+	{
+	"radio-group": 
+		{
+		"id": "2",
+		"name": "RADIO GROUP",
+		"options" : 
+			[
+			"1st opt",
+			"2nd opt",
+			"3rd opt"
+			]
+		}
+	}
+	
+	]
+}

@@ -1,0 +1,126 @@
+
+{
+"form" : 
+	[
+	{
+	"text-field" : 
+		{
+		"id":"patientname",
+		"default-text":"John Smith",
+		"name":"Patient Name"
+		,"input-type":"text"
+		}
+	},
+	{
+	"text-field":
+		{
+		"id":"hospitalnumber",
+		"default-text":"",
+		"name":"Hospital Number",
+		"input-type":"number"
+		}
+	},
+	{
+	"text-field":
+		{
+		"id":"ward",
+		"default-text":"",
+		"name":"Ward","input-type":"text"
+		}
+	},
+	{
+	"text-field":
+		{
+		"id":"nhsnumber",
+		"default-text":"",
+		"name":"NHS Number",
+		"input-type":"number"
+		}
+	},
+	{
+	"text-field":
+		{
+		"id":"weight",
+		"default-text":"
+		","name":"Weight (kg)",
+		"input-type":"number"
+		}
+	},
+	{
+	"text-field":
+		{
+		"id":"height",
+		"default-text":"",
+		"name":"Height (cm)",
+		"input-type":"number"
+		}
+	},
+	{
+	"radio-group":
+		{
+		"id":"appetite",
+		"name":"Appetite",
+		"options":
+			[
+			"1" : "Normal for Patient(0)",
+			"2" : "Reduced(3)",
+			"3" : "Minimal(5)"
+			]
+		}
+	},
+	{
+	"radio-group":
+		{
+		"id":"neurologicalstatus",
+		"name":"Neurological/Psychological Status",
+		"options":
+			[
+			"Fully Oriented(0)",
+			"Confused(3)",
+			"Unconscious(5)"
+			]
+		}
+	},
+	{
+	"radio-group":
+		{
+		"id":"physicalappearence",
+		"name":"Physical Appearence",
+		"options":
+			[
+			"Appears appropriate weight or overweight(0)",
+			"Appears thin(2)",
+			"Appears emaciated(4)"
+			]
+		}
+	},
+	{
+	"radio-group":
+		{
+		"id":"weightloss",
+		"name":"Weight Loss",
+		"options":
+			[
+			"No weight loss(0)",
+			"Gradual over several months(2)",
+			"Rapid over several weeks(5)",
+			"Unable to score(2)"
+			]
+		}
+	},
+	{
+	"radio-group":
+		{
+		"id":"intake",
+		"name":"Intake",
+		"options":
+			[
+			"Manages most of 3 meals a day or equiavlent(0)",
+			"Poor intake leaving > half meals offered(3)",
+			"Receiving parenteral or enteral nutrition(3)"
+			]
+		}
+	}
+	],
+	"name":"nst"
+}
